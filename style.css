@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+:root{
+    --pie-size: 150px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+#creds{
+    color: lightgray;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+
+.pie_container{
+    border: lightblue solid 5px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0px auto 0px auto;
+    padding: 20px;
+
+
+    display: flex;
+    justify-content: row;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pie {
+    margin: 20px;
+    height: var(--pie-size);
+    width: var(--pie-size);
+    
+    border: 2px dashed white;
+    color:white;
+    text-align: center;
+    
+}
+
+button{
+    margin: 20px;
+    padding: 5px;
+    height: var(--pie-size);
+    width: var(--pie-size);
+    border-radius: 75px;
+    
+    color: blue;
+    order: -1;
+}
